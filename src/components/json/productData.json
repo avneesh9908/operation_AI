@@ -1,0 +1,27 @@
+[
+    {
+      "productName": "shirt",
+      "price": "599",
+      "rating": "4",
+      "quantity": "1",
+      "quality": "Standard",
+      "photo": "https://www.urbanofashion.com/cdn/shop/files/epnchino-19-grey-2_1b4131e1-fcb5-409f-90c7-b350eead07b4.jpg?v=1706686356"
+    },
+    {
+      "productName": "paints",
+      "price": "599",
+      "rating": "3",
+      "quantity": "1",
+      "quality": "Good",
+      "photo": "https://www.urbanofashion.com/cdn/shop/files/epnchino-19-grey-2_1b4131e1-fcb5-409f-90c7-b350eead07b4.jpg?v=1706686356"
+    },
+    {
+      "productName": "shoes",
+      "price": "999",
+      "rating": "5",
+      "quantity": "1",
+      "quality": "Premium",
+      "photo": null
+    }
+  ]
+  

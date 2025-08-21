@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Container */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1833px;
+    margin: 0 auto;
+  }
+  
+  /* Logo Styles */
+  .logo-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-brand a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .logo-brand a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    transition: all 0.3s ease;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* NavLink active and hover states */
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #1abc9c;
+    transform: translateY(-2px);
+  }
+  
+  /* Cart Icon Styles */
+  .cart-icon {
+    font-size: 1.2em;
+  }
+  
+  .cart-count {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+    position: relative;
+    top: -8px;
+    right: 8px;
+  }
+  
+  /* Menu Icon Styles */
+  .menu-icon {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .menu-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    nav {
+      position: fixed;
+      top: 60px;
+      left: -100%;
+      width: 100%;
+      height: calc(100vh - 60px);
+      background-color: #333;
+      transition: left 0.3s ease;
+    }
+  
+    nav.nav-open {
+      left: 0;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 20px;
+      gap: 10px;
+    }
+  
+    nav ul li {
+      width: 100%;
+    }
+  
+    nav ul li a {
+      padding: 15px;
+      justify-content: center;
+    }
+  }
+  

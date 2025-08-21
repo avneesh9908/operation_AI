@@ -1,0 +1,88 @@
+{
+    "start": {
+      "message": "Hi, how can I assist you today?",
+      "options": [
+        { "text": "About Us", "next": "about" },
+        { "text": "Our Products", "next": "products" },
+        { "text": "Our Services", "next": "services" },
+        { "text": "Contact Us", "next": "contact" }
+      ]
+    },
+    "about": {
+      "message": "We are a company dedicated to innovation and customer satisfaction.",
+      "options": [
+        { "text": "Our History", "next": "history" },
+        { "text": "Our Team", "next": "team" },
+        { "text": "Go Back", "next": "start" }
+      ]
+    },
+    "history": {
+      "message": "Our company was founded in 2000 with a mission to deliver quality.",
+      "options": [{ "text": "Go Back", "next": "about" }]
+    },
+    "team": {
+      "message": "Our team comprises industry experts dedicated to excellence.",
+      "options": [{ "text": "Go Back", "next": "about" }]
+    },
+    "products": {
+      "message": "Here are our product categories:",
+      "options": [
+        { "text": "Electronics", "next": "electronics" },
+        { "text": "Fashion", "next": "fashion" },
+        { "text": "Go Back", "next": "start" }
+      ]
+    },
+    "electronics": {
+      "message": "We offer phones, laptops, and accessories. Choose a category:",
+      "options": [
+        { "text": "Phones", "next": "phones" },
+        { "text": "Laptops", "next": "laptops" },
+        { "text": "Go Back", "next": "products" }
+      ]
+    },
+    "phones": {
+      "message": "We have a wide range of smartphones to choose from.",
+      "options": [{ "text": "Go Back", "next": "electronics" }]
+    },
+    "laptops": {
+      "message": "Our laptops are designed for performance and portability.",
+      "options": [{ "text": "Go Back", "next": "electronics" }]
+    },
+    "fashion": {
+      "message": "We offer trendy apparel and accessories for all ages.",
+      "options": [{ "text": "Go Back", "next": "products" }]
+    },
+    "services": {
+      "message": "We offer a variety of services to meet your needs:",
+      "options": [
+        { "text": "Consulting", "next": "consulting" },
+        { "text": "Support", "next": "support" },
+        { "text": "Go Back", "next": "start" }
+      ]
+    },
+    "consulting": {
+      "message": "Our consulting services help businesses achieve their goals.",
+      "options": [{ "text": "Go Back", "next": "services" }]
+    },
+    "support": {
+      "message": "We provide 24/7 support for all our products.",
+      "options": [{ "text": "Go Back", "next": "services" }]
+    },
+    "contact": {
+      "message": "How would you like to contact us?",
+      "options": [
+        { "text": "Email", "next": "email" },
+        { "text": "Phone", "next": "phone" },
+        { "text": "Go Back", "next": "start" }
+      ]
+    },
+    "email": {
+      "message": "You can email us at support@example.com.",
+      "options": [{ "text": "Go Back", "next": "contact" }]
+    },
+    "phone": {
+      "message": "Call us at +123 456 7890 for assistance.",
+      "options": [{ "text": "Go Back", "next": "contact" }]
+    }
+  }
+  
